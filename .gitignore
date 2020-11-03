@@ -1,3 +1,5 @@
 node_modules/
 .styleintrc.json
 .hintrc
+styles.css
+styles.css.map
