@@ -1,6 +1,221 @@
-a{
-    color: white;
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./fonts/robotocondensed-bold-webfont.woff2");
+  font-weight: 700;
 }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./fonts/robotocondensed-regular-webfont.woff2");
+  font-weight: 300;
+}
+
+@mixin section-title {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+}
+
+@mixin section-break {
+  content: "";
+  display: block;
+  height: 18px;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  right: -15px;
+}
+
+a{
+  color: white;
+}
+
+header {
+  .top-navbar {
+    background-color: red;
+
+    svg {
+      width: 132px;
+      height: 20px;
+      fill: white;
+    }
+
+    .button-subscribe {
+      background-color: #ffe400;
+      border: none;
+      font-weight: bold;
+      font-size: 13px;
+      border-radius: 24px;
+    }
+
+    .mobile-menu {
+      border: none;
+      background-color: red;
+      color: white;
+    }
+
+    .items button{
+      padding-left: 12px;
+    }
+  }
+}
+
+.hero-articles {
+  background-color: white;
+  margin-top: 20px;
+
+  h2 {
+    @include section-title;
+  }
+
+  .simple-article {
+    img {
+      width: 100%;
+    }
+
+    h4 {
+      font: bold 16px/19px "Roboto Condensed", sans-serif;
+      color: rgba(3,3,3,.5);
+      margin: 20px 0;
+    }
+  }
+
+  .left-col {
+    .article-main {
+      margin: 0;
+
+      .image-container {
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .category {
+        position: absolute;
+        padding: 2px 25px 2px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #f72210;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255,255,255,.9);
+      }
+
+      h3 {
+        margin: 10px 0;
+        line-height: 24px;
+      }
+
+      h3 a {
+        color: black;
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 13px;
+        color: rgb(51, 51, 51);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .featured-stories::before {
+        @include section-break;
+      }
+
+      .featured-stories {
+        position: relative;
+        padding-top: 39px !important;
+      }
+    }
+  }
+
+  .middle-col {
+    @media (max-width: 768px) {
+      .my-turn::before {
+        @include section-break;
+      }
+
+      .my-turn {
+        position: relative;
+        padding-top: 39px !important;
+      }
+    }
+
+    .my-turn {
+      h3 {
+        @include section-title;
+      }
+    }
+
+    .culture {
+      h3 {
+        @include section-title;
+      }
+
+      .simple-article {
+        .image-container {
+          position: relative;
+
+          a {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            background-color: #c2d4d7;
+            color: black;
+            height: 20px;
+          }
+
+          h5 {
+            font: bold 13px/20px "Roboto condensed", Arial, sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .in-mag::before {
+    @include section-break;
+  }
+}
+
+.in-mag {
+  @media (max-width: 768px) {
+    position: relative;
+    padding-top: 39px !important;
+  }
+
+  h3 {
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
+  }
+
+  .in-mag-title {
+    margin: auto;
+  }
+
+  .article-in-mag {
+    .image-container {
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .category {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        color: red;
+        font: bold 16px/33px "Roboto Condensed", sans-serif;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
 .article-opinion{
     line-height: 1rem;
     padding:  1rem 0;
