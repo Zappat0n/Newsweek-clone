@@ -3,3 +3,4 @@ node_modules/
 .hintrc
 styles.css
 styles.css.map
+/hint-report
