@@ -126,7 +126,7 @@ header {
       }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .featured-stories::before {
         @include section-break;
       }
@@ -139,7 +139,7 @@ header {
   }
 
   .middle-col {
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
       .my-turn::before {
         @include section-break;
       }
