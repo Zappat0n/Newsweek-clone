@@ -27,7 +27,7 @@
   right: -15px;
 }
 
-a{
+a {
   color: white;
 }
 
@@ -55,7 +55,7 @@ header {
       color: white;
     }
 
-    .items button{
+    .items button {
       padding-left: 12px;
     }
   }
@@ -197,6 +197,16 @@ header {
     margin: auto;
   }
 
+  .first-article-in-mag {
+    .see-all-features {
+      padding: 10px;
+    }
+
+    .see-all-features:hover {
+      background-color: #dbdcdd;
+    }
+  }
+
   .article-in-mag {
     .image-container {
       position: relative;
@@ -216,7 +226,7 @@ header {
   }
 }
 
-.article-opinion{
+.article-opinion {
     line-height: 1rem;
     padding:  1rem 0;
     border-bottom: 1px solid white;
