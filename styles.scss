@@ -301,6 +301,16 @@ header {
 .topic {
   h2 {
     font: bold 16px/16px "Roboto Condensed", sans-serif;
+    color: #f72210;
+  }
+  h3 {
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
+    color: black;
+    padding: 10px;
+  }
+
+  .right-side article {
+    border-bottom: 2px solid lightgrey;
   }
 
 }
