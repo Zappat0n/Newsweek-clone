@@ -167,7 +167,7 @@ header {
 
           a {
             position: absolute;
-            bottom: -10px;
+            bottom: 0;
             left: 0;
             background-color: #c2d4d7;
             color: black;
@@ -210,7 +210,12 @@ header {
 .article-in-mag {
   margin-top: 1.5rem;
   width: 100%;
-
+  .tag{
+    background-color: red;
+  }
+   a {
+    color: #333;
+  }
   .image-container {
     position: relative;
 
@@ -227,7 +232,7 @@ header {
       background-color: rgba(255, 255, 255, 0.9);
       padding: 0 5px;
     }
-
+    
     h5 {
       font: bold 17px/16px "Roboto Condensed", sans-serif;
     }
@@ -243,11 +248,7 @@ header {
   h3 {
     font: bold 19px/19px "Roboto Condensed", sans-serif;
   }
-  .row:not(:first-child){
-    .article-in-mag{
-
-    }
-  }
+  
 
   .first-article-in-mag {
     .see-all-features {
@@ -274,7 +275,14 @@ header {
     }
   }
 }
-
+.article-debate2,.article-debate1{
+  a{
+    img{
+      height: 63px;
+    width: 63px;
+    }
+  }
+}
 .article-opinion {
     line-height: 1rem;
     padding:  1rem 0;
