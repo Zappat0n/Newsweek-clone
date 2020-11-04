@@ -304,3 +304,39 @@ header {
   }
 
 }
+
+footer{
+  nav .left-side{
+    img{
+      max-width: fit-content;
+    }
+  }
+  i.fab{
+    color: gray;
+  }
+  .languages.nav,.footer-links .nav{
+    a{
+      color: gray;
+      font-size: 0.8rem;
+    }
+  }
+  .languages.nav{
+    ul.nav{
+      max-width: 500px;
+      li{
+        padding: 0 .25rem;
+      }
+      
+      
+    }
+  }
+  .footer-links .nav{
+    max-width: 80vw;
+    li{
+      padding: 0 0.5em;
+      @media (min-width:768px) {
+        border-right: 1px solid grey;
+      }
+    }
+  }
+}
