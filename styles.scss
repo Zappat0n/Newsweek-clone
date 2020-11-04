@@ -209,6 +209,7 @@ header {
 
 .article-in-mag {
   margin-top: 1.5rem;
+  width: 100%;
 
   .image-container {
     position: relative;
@@ -290,8 +291,13 @@ header {
         
     }
 }
+
 .sponsored-insight{
   .image-container a h5{
     color: rgb(82, 82, 255);
   }
+}
+
+.topic {
+
 }
