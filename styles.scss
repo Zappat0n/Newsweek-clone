@@ -408,3 +408,18 @@ footer{
   }
 }
 // <!-- to be pasted subscirbe -->
+
+.more-stories{
+  .story-desc a{
+    color: #333;
+  }
+  .img-wrap{
+    
+   img{
+      width: 125px;
+      height: 125px;
+      object-fit: cover;
+    }
+  }
+  
+}
