@@ -342,8 +342,25 @@ footer{
 }
 //  <!-- to be pasted subscirbe -->
 .news , .subscribe{
+  h6{
+    color:#f61602 ;
+  }
   h3,p{
     text-align: center;
+  }
+}
+.subscribe{
+  .img-container{
+    margin-bottom: 1rem;
+    position: relative;
+    img{
+      position: relative;
+    }
+    .img2{
+      z-index: 2;
+      left: -50px;
+      bottom: -10px;;
+    }
   }
 }
 .news{
