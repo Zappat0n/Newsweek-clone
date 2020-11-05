@@ -6,9 +6,9 @@
 
 > This Project consists of making a clone of the [Newsweek](http://newsweek.com/) web page.
 
-![screenshot](./assets/imgs/screenshot-mobile.png)
-![screenshot](./assets/imgs/screenshot-tablet.png)
-![screenshot](./assets/imgs/screenshot-desktop.png)
+![screenshot](./mobile.png)
+![screenshot](./tablet.png)
+![screenshot](./desktop.png)
 
 You can find the original project specification at: [](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
@@ -25,11 +25,12 @@ You can find the original project specification at: [](https://www.theodinprojec
 
 ## Authors
 
-👤 **XXX**
+👤 **Akshat Sethi**
 
-- GitHub: [@od-c0d3r]()
-- Twitter: [@od_coder]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@iam-Akshat](https://github.com/iam-Akshat)
+- Twitter: [@akshatsethi](https://twitter.com/akshatsethi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akshat-sethi-786737ba/)
+- Website: [click](https://akshatsethi.com)
 
 👤 **Angel Barros**
 
