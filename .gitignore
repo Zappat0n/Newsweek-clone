@@ -4,3 +4,5 @@ node_modules/
 styles.css
 styles.css.map
 /hint-report
+package.json
+package-lock.json
