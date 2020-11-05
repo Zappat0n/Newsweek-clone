@@ -30,7 +30,7 @@
 body,
 header,
 footer {
-  max-width: 1024px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -62,9 +62,18 @@ a {
 }
 
 .news {
-  // .img-container{
-  //   width: 100%;
-  // }
+  @media (min-width: 768px) {
+    .img-container {
+      width: 25%;
+    }
+
+    @media (min-width: 1024px) {
+      .main-content {
+        height: 90% !important;
+      }
+    }
+  }
+
   button {
     background-color: #f61602;
     border-radius: 0;
