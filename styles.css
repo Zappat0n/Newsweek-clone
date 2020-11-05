@@ -1,3 +1,5 @@
+/* stylelint-disable */
+
 @font-face {
   font-family: "Roboto Condensed";
   src: url("./fonts/robotocondensed-bold-webfont.woff2");
@@ -142,7 +144,7 @@ header .bottom-navbar {
 }
 
 footer nav .left-side img {
-  max-width: fit-content;
+  max-width: min-content;
 }
 footer i.fab {
   color: gray;

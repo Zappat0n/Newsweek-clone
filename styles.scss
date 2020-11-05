@@ -30,7 +30,7 @@
 body,
 header,
 footer {
-  max-width: 1500px;
+  max-width: 1320px;
   margin: auto;
 }
 
@@ -183,7 +183,7 @@ header {
 footer {
   nav .left-side {
     img {
-      max-width: fit-content;
+      max-width: min-content;
     }
   }
 
