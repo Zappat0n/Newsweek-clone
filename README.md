@@ -10,7 +10,7 @@
 ![screenshot](./tablet.PNG)
 ![screenshot](./desktop.PNG)
 
-You can find the original project specification at: [](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
+You can find the original project specification at: [link](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 ## Built With
 
