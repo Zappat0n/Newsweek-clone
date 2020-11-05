@@ -116,13 +116,16 @@ header {
 
     .category {
       position: absolute;
-      padding: 2px 25px 2px;
-      font-size: 17px;
+      padding: 3px;
+      // font-size: 17px;
       font-weight: bold;
       color: #f72210;
       bottom: 0;
       left: 0;
       background-color: rgba(255,255,255,.9);
+      h5{
+        font-size: 1rem;
+      }
     }
 
     h3 {
@@ -476,4 +479,12 @@ footer{
     position: absolute;
     top: 0;
     right: 0;
+}
+@media (min-width:992px){
+  .right-col .sponsored-insight{
+    max-width: 100%;
+  }
+  .sponsored-insight .category a {
+    font-size: 1rem;
+  }
 }
