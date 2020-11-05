@@ -6,9 +6,9 @@
 
 > This Project consists of making a clone of the [Newsweek](http://newsweek.com/) web page.
 
-![screenshot](./mobile.png)
-![screenshot](./tablet.png)
-![screenshot](./desktop.png)
+![screenshot](./phone.png)
+![screenshot](./tablet.PNG)
+![screenshot](./desktop.PNG)
 
 You can find the original project specification at: [](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
