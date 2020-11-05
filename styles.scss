@@ -27,6 +27,10 @@
   right: -15px;
 }
 
+main {
+  max-width: 1024px;
+}
+
 a {
   color: white;
 }
@@ -78,8 +82,24 @@ header {
       background-color: red;
       color: white;
     }
+  }
 
-    
+  .middle-navbar {
+    border-bottom: solid 1px lightgray;
+    font: bold 19px/24px "Roboto Condensed", sans-serif;
+
+    input {
+      width: 120px;
+    }
+
+    ul li {
+      border-right: solid 1px lightgray;
+    }
+  }
+
+  .bottom-navbar {
+    border-bottom: solid 1px lightgray;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
   }
 }
 
@@ -177,7 +197,7 @@ header {
     }
 
     .culture {
-
+      
       @media (min-width:768px) {
         .image-container{
           height: 100px;
@@ -189,12 +209,14 @@ header {
           }
         }
       }
+      
       @media (min-width:1024px) {
         .image-container{
-          height: 175px;
-          width: 175px;
+          height: 140px;
+          width: 140px;
         }
       }
+
       h3 {
         @include section-title;
       }
