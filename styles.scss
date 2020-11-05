@@ -157,6 +157,24 @@ header {
     }
 
     .culture {
+
+      @media (min-width:768px) {
+        .image-container{
+          height: 100px;
+          width: 100px;
+          object-fit: cover;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+      @media (min-width:1024px) {
+        .image-container{
+          height: 175px;
+          width: 175px;
+        }
+      }
       h3 {
         @include section-title;
       }
