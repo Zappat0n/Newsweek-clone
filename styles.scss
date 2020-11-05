@@ -86,46 +86,46 @@ header {
     }
   }
 
-  .left-col,
-  .middle-col {
-    .article-main {
-      margin: 0;
+  .article-main {
+    margin: 0;
 
-      .image-container {
-        position: relative;
+    .image-container {
+      position: relative;
 
-        img {
-          width: 100%;
-        }
-      }
-
-      .category {
-        position: absolute;
-        padding: 2px 25px 2px;
-        font-size: 17px;
-        font-weight: bold;
-        color: #f72210;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(255,255,255,.9);
-      }
-
-      h3 {
-        margin: 10px 0;
-        line-height: 24px;
-      }
-
-      h3 a {
-        color: black;
-        font-size: 22px;
-      }
-
-      p {
-        font-size: 13px;
-        color: rgb(51, 51, 51);
+      img {
+        width: 100%;
       }
     }
 
+    .category {
+      position: absolute;
+      padding: 2px 25px 2px;
+      font-size: 17px;
+      font-weight: bold;
+      color: #f72210;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(255,255,255,.9);
+    }
+
+    h3 {
+      margin: 10px 0;
+      line-height: 24px;
+    }
+
+    h3 a {
+      color: black;
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 13px;
+      color: rgb(51, 51, 51);
+    }
+  }
+
+  .left-col,
+  .middle-col {
     @media (max-width: 767px) {
       .featured-stories::before {
         @include section-break;
