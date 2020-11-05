@@ -44,25 +44,42 @@ header {
       width: 132px;
       height: 20px;
       fill: white;
+      @media (min-width:1024px) {
+        width: 395px;
+        height: 60px;
+      }
     }
-
+    .items button {
+      margin: 0 0.5rem;
+    }
     .button-subscribe {
+      text-align: center;
       background-color: #ffe400;
       border: none;
       font-weight: bold;
       font-size: 13px;
       border-radius: 24px;
+      @media (min-width:1024px){
+        padding: 0.25rem 1.0rem;
+        font-size: 18px;
+      }
     }
-
+    .login-btn{
+      outline: none;
+      border: none;
+      background-color: transparent;
+    }
+    img[alt="waves"]{
+      width: 20px;
+      margin-right: 0.25rem;
+    }
     .mobile-menu {
       border: none;
       background-color: red;
       color: white;
     }
 
-    .items button {
-      padding-left: 12px;
-    }
+    
   }
 }
 
@@ -440,4 +457,14 @@ footer{
     }
   }
   
+}
+.search-icon{
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+    width: 20px;
+    height: 20px;
+    clip: auto;
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
