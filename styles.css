@@ -1,20 +1,17 @@
-/* stylelint-disable */
 @font-face {
   font-family: "Roboto Condensed";
   src: url("./fonts/robotocondensed-bold-webfont.woff2");
   font-weight: 700;
 }
-
 @font-face {
   font-family: "Roboto Condensed";
   src: url("./fonts/robotocondensed-regular-webfont.woff2");
   font-weight: 300;
 }
-
 body,
 header,
 footer {
-  max-width: 1500px;
+  max-width: 1320px;
   margin: auto;
 }
 
@@ -30,18 +27,14 @@ a {
 .in-mag-title {
   margin: auto;
 }
-
 .in-mag-title .n-icon {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
+  flex: none;
   display: block;
   width: 29px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat red;
   margin-right: 10px;
 }
-
 .in-mag-title h3 {
   padding-top: 8px;
   font: bold 19px/19px "Roboto Condensed", sans-serif;
@@ -52,13 +45,11 @@ a {
     width: 25%;
   }
 }
-
 @media (min-width: 768px) and (min-width: 1024px) {
   .news .main-content {
     height: 90% !important;
   }
 }
-
 .news button {
   background-color: #f61602;
   border-radius: 0;
@@ -69,24 +60,20 @@ a {
 header .top-navbar {
   background-color: red;
 }
-
 header .top-navbar svg {
   width: 132px;
   height: 20px;
   fill: white;
 }
-
 @media (min-width: 1024px) {
   header .top-navbar svg {
     width: 395px;
     height: 60px;
   }
 }
-
 header .top-navbar .items button {
   margin: 0 0.5rem;
 }
-
 header .top-navbar .button-subscribe {
   text-align: center;
   background-color: #ffe400;
@@ -95,44 +82,36 @@ header .top-navbar .button-subscribe {
   font-size: 13px;
   border-radius: 24px;
 }
-
 @media (min-width: 1024px) {
   header .top-navbar .button-subscribe {
     padding: 0.25rem 1rem;
     font-size: 18px;
   }
 }
-
 header .top-navbar .login-btn {
   outline: none;
   border: none;
   background-color: transparent;
 }
-
-header .top-navbar img[alt="waves"] {
+header .top-navbar img[alt=waves] {
   width: 20px;
   margin-right: 0.25rem;
 }
-
 header .top-navbar .mobile-menu {
   border: none;
   background-color: red;
   color: white;
 }
-
 header .middle-navbar {
   border-bottom: solid 1px lightgray;
   font: bold 19px/24px "Roboto Condensed", sans-serif;
 }
-
 header .middle-navbar input {
   width: 120px;
 }
-
 header .middle-navbar ul li {
   border-right: solid 1px lightgray;
 }
-
 header .bottom-navbar {
   border-bottom: solid 1px lightgray;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
@@ -163,39 +142,30 @@ header .bottom-navbar {
 }
 
 footer nav .left-side img {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
   max-width: fit-content;
 }
-
 footer i.fab {
   color: gray;
 }
-
 footer .languages.nav a,
 footer .footer-links .nav a {
   color: gray;
   font-size: 0.8rem;
 }
-
 footer .footer-links .nav {
   max-width: 80vw;
 }
-
 footer .footer-links .nav li {
   padding: 0 0.5em;
 }
-
 @media (min-width: 768px) {
   footer .footer-links .nav li {
     border-right: 1px solid grey;
   }
 }
-
 footer .languages.nav ul.nav {
   max-width: 500px;
 }
-
 footer .languages.nav ul.nav li {
   padding: 0 0.25rem;
 }
@@ -204,7 +174,6 @@ footer .languages.nav ul.nav li {
 .subscribe h6 {
   color: #f61602;
 }
-
 .news h3,
 .news p,
 .subscribe h3,
@@ -216,11 +185,9 @@ footer .languages.nav ul.nav li {
   margin-bottom: 1rem;
   position: relative;
 }
-
 .subscribe .img-container img {
   position: relative;
 }
-
 .subscribe .img-container .img2 {
   z-index: 2;
   left: -50px;
@@ -230,15 +197,12 @@ footer .languages.nav ul.nav li {
 .article-main {
   margin: 0;
 }
-
 .article-main .image-container {
   position: relative;
 }
-
 .article-main .image-container img {
   width: 100%;
 }
-
 .article-main .category {
   position: absolute;
   padding: 3px;
@@ -248,16 +212,13 @@ footer .languages.nav ul.nav li {
   left: 0;
   background-color: rgba(255, 255, 255, 0.9);
 }
-
 .article-main .category h5 {
   font-size: 1rem;
 }
-
 .article-main h3 {
   margin: 10px 0;
   line-height: 24px;
 }
-
 .article-main p {
   font-size: 13px;
   color: #333333;
@@ -267,33 +228,26 @@ footer .languages.nav ul.nav li {
   margin-top: 1.5rem;
   width: 100%;
 }
-
 .article-in-mag .tags {
   font: bold 17px/16px "Roboto Condensed", sans-serif;
 }
-
 @media (min-width: 768px) {
   .article-in-mag .tags {
     font: bold 16px/26px "Roboto Condensed", sans-serif;
   }
 }
-
 .article-in-mag .tag {
   background-color: red;
 }
-
 .article-in-mag h6 {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
-
 .article-in-mag .image-container {
   position: relative;
 }
-
 .article-in-mag .image-container img {
   width: 100%;
 }
-
 .article-in-mag .image-container .category {
   position: absolute;
   left: 0;
@@ -310,15 +264,12 @@ footer .languages.nav ul.nav li {
     padding-top: 39px !important;
   }
 }
-
 .in-mag h3 {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
 }
-
 .in-mag .first-article-in-mag .see-all-features {
   padding: 10px;
 }
-
 .in-mag .first-article-in-mag .see-all-features:hover {
   background-color: #dbdcdd;
 }
@@ -328,14 +279,12 @@ footer .languages.nav ul.nav li {
   padding: 1rem 0;
   border-bottom: 1px solid white;
 }
-
 .article-opinion .opinion-title {
   font-size: 0.8rem;
   line-height: 0.5rem;
   font-weight: 700;
   color: black;
 }
-
 .article-opinion p {
   font-size: 0.7rem;
   color: lightgrey;
@@ -344,11 +293,9 @@ footer .languages.nav ul.nav li {
 .editor-picks .editor-picks-article {
   margin-top: 0;
 }
-
 .editor-picks .editor-picks-article h3 {
   font: bold 20px/20px "Roboto Condensed", sans-serif;
 }
-
 .editor-picks .editor-picks-article p {
   font-size: 13px;
   line-height: 18px;
@@ -363,15 +310,12 @@ footer .languages.nav ul.nav li {
   font: bold 22px/22px "Roboto Condensed", sans-serif;
   color: #f72210;
 }
-
 .topic .caption {
   padding: 10px 0;
 }
-
 .topic .right-side .caption a {
   font-size: 17px;
 }
-
 .topic .right-side article {
   border-bottom: 2px solid lightgrey;
 }
@@ -380,25 +324,21 @@ footer .languages.nav ul.nav li {
   background-color: white;
   margin-top: 20px;
 }
-
 .hero-articles h2 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
-
 .hero-articles .simple-article img {
   width: 100%;
 }
-
 .hero-articles .simple-article h4 {
   font: bold 16px/19px "Roboto Condensed", sans-serif;
   color: rgba(3, 3, 3, 0.5);
   margin: 20px 0;
 }
-
 @media (max-width: 767px) {
   .hero-articles .left-col .featured-stories::before,
-  .hero-articles .middle-col .featured-stories::before {
+.hero-articles .middle-col .featured-stories::before {
     content: "";
     display: block;
     height: 18px;
@@ -410,12 +350,11 @@ footer .languages.nav ul.nav li {
     right: -15px;
   }
   .hero-articles .left-col .featured-stories,
-  .hero-articles .middle-col .featured-stories {
+.hero-articles .middle-col .featured-stories {
     position: relative;
     padding-top: 39px !important;
   }
 }
-
 @media (max-width: 767px) {
   .hero-articles .middle-col .my-turn::before {
     content: "";
@@ -433,41 +372,34 @@ footer .languages.nav ul.nav li {
     padding-top: 39px !important;
   }
 }
-
 .hero-articles .middle-col .my-turn h3 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
-
 @media (min-width: 768px) {
   .hero-articles .middle-col .culture .image-container {
     height: 100px;
     width: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .hero-articles .middle-col .culture .image-container img {
     height: 100%;
     width: 100%;
   }
 }
-
 @media (min-width: 1024px) {
   .hero-articles .middle-col .culture .image-container {
     height: 140px;
     width: 140px;
   }
 }
-
 .hero-articles .middle-col .culture h3 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
 }
-
 .hero-articles .middle-col .culture .simple-article .image-container {
   position: relative;
 }
-
 .hero-articles .middle-col .culture .simple-article .image-container a {
   position: absolute;
   bottom: 0;
@@ -476,22 +408,17 @@ footer .languages.nav ul.nav li {
   color: black;
   height: 20px;
 }
-
 .hero-articles .middle-col .culture .simple-article .image-container h5 {
   font: bold 13px/20px "Roboto condensed", Arial, sans-serif;
 }
-
 .hero-articles .middle-col .more-stories .img-wrap img {
   width: 125px;
   height: 125px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .hero-articles .middle-col .more-stories .more-story {
   border-top: solid 1px lightgray;
 }
-
 .hero-articles .middle-col .more-stories h4 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
@@ -510,7 +437,6 @@ footer .languages.nav ul.nav li {
     right: -15px;
   }
 }
-
 .vs-section {
   text-align: center;
   height: 25px;
@@ -536,8 +462,10 @@ footer .languages.nav ul.nav li {
   .right-col .sponsored-insight {
     max-width: 100%;
   }
+
   .sponsored-insight .category a {
     font-size: 1rem;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
