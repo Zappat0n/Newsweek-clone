@@ -40,33 +40,35 @@
         </a>
         </div>
         <div class="col">
-          <div class="items float-right d-lg-flex ">
+          <div class="items float-right d-flex align-items-baseline">
             <a href="#"><i class="fas fa-user d-lg-none"></i></a>
-            <button class="d-none d-lg-block login-btn text-white font-weight-bold">LOGIN</button>
-            <button class="button-subscribe">SUBSCRIBE ></button>
-            <button class="mobile-menu d-lg-none"><i class="fas fa-bars"></i></button>
+            <button class="px-0 d-none d-lg-block login-btn text-white font-weight-bold">LOGIN</button>
+            <button class="px-1 button-subscribe">SUBSCRIBE ></button>
+            <button class="px-0 mobile-menu d-lg-none"><i class="fas fa-bars"></i></button>
           </div>
         </div>
       </div>
     </nav>
 
-    <nav class="middle-navbar navbar d-none d-lg-flex justify-content-start p-3">
-      <ul class="nav">
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">U.S.</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">World</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Business</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Tech & Science</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Culture</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Newsgeek</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Sports</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Health</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">The Debate</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Vantage</a></li>
-        <li class="nav-item"><a class="p-1 nav-link text-dark font-weight-bold" href="#">Weather</a></li>
+    <nav class="middle-navbar navbar d-none d-lg-flex  p-1">
+      <ul class="nav d-flex justify-content-around align-items-center px-0">
+        <li class="nav-item"><a class="nav-link px-1 text-center text-dark font-weight-bold" href="#">U.S.</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">World</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Business</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Tech & Science</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Culture</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Newsgeek</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Sports</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Health</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">The Debate</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Vantage</a></li>
+        <li class="nav-item"><a class="nav-link px-1 text-center border-left text-dark font-weight-bold" href="#">Weather</a></li>
+        <li class="nav-item position-relative"><input class="border-0" type="text" id="search" placeholder="Search"><label for="search" class="search-icon ml-5"></label></li>
       </ul>
+<!-- 
       <div class="search position-relative d-flex">
-        <input type="text" id="search" placeholder="Search"><label for="search" class="search-icon ml-5"></label>
-      </div>
+        <input class="border-0" type="text" id="search" placeholder="Search"><label for="search" class="search-icon ml-5"></label>
+      </div>  -->
     </nav>
     <nav class="bottom-navbar pl-1 pr-1 d-none d-lg-block ">
       <ul class="nav">
@@ -162,47 +164,87 @@
           </article>
         </section>
         <section class="sponsored-insight">
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/apple-iphone.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">World's Best Specialized Hospitals 2021</a></h3>
-            <p>In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.
-            </p>
+            <div class="info">
+              <a class="card-title" href="#">World's Best Specialized Hospitals 2021</a>
+              <p class="card-text">In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.</p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">Best Online Shops 2021</a></h3>
-            <p>Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">America's Best Physical Rehabilitation Centers 2020</a></h3>
-            <p>Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best
-              Physical Rehabilitation Centers.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">What Brands do You Trust the Most?</a></h3>
-            <p>Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
+          </article>
+          <article class="article-main card">
+            <div class="image-container">
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
+              </a>
+            </div>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
+          </article>
+          <article class="article-main card">
+            <div class="image-container">
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
+              </a>
+            </div>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
         </section>
       </section>
@@ -221,9 +263,29 @@
               administration would "put it down within minutes."</p>
           </article>
         </section>
-        <section class="my-turn-and-culture-more-stories d-md-flex flex-md-column-reverse">
+        <section class="my-turn-and-culture-more-stories d-md-flex flex-md-column-reverse sticky">
           <section class="more-stories">
             <h4>MORE STORIES</h4>
+            <article class="more-story clearfix p-2">
+              <div class="img-wrap float-left mr-2">
+                <img src="./images/freshwater-crocodile.png" alt="crococdile" >
+              </div>
+
+              <div class="story-desc">
+                <a href=""><h5>Election Day Issues Reported Across U.S.—Broken Machines, Absent Officials</h5></a>
+              <p>States across the country have seen issues with polling places, including whole counties experiencing power loss to stations.</p>
+              </div>
+            </article>
+            <article class="more-story clearfix p-2">
+              <div class="img-wrap float-left mr-2">
+                <img src="./images/freshwater-crocodile.png" alt="crococdile" >
+              </div>
+              
+              <div class="story-desc">
+                <a href=""><h5>Election Day Issues Reported Across U.S.—Broken Machines, Absent Officials</h5></a>
+              <p>States across the country have seen issues with polling places, including whole counties experiencing power loss to stations.</p>
+              </div>
+            </article>
             <article class="more-story clearfix p-2">
               <div class="img-wrap float-left mr-2">
                 <img src="./images/freshwater-crocodile.png" alt="crococdile" >
@@ -467,71 +529,112 @@
           </section>
         </section>
         <section class="sponsored-insight col-md-6 mx-auto">
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
               <a href="#"><img src="./images/apple-iphone.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
-              </a>
+              <a class="category p-2" href=""><h5 class="m-auto">SPONSORED INSIGHT</h5></a>
             </div>
-            <h3><a href="#">Leaders in Global Education 2020
-              </a></h3>
-            <p>What does it take to be a leader in Global Education? What sets the best Universities apart from the
-              others on the world stage? Find out more.</p>
+            <div class="info">
+              <a class="card-title" href="#">Leaders in Global Education 2020</a>
+              <p class="card-text">What does it take to be a leader in Global Education? What sets the best Universities apart from the
+                others on the world stage? Find out more.</p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
-              </a>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href=""><h5 class="m-auto">SPONSORED INSIGHT</h5>              </a>
             </div>
-            <h3><a href="#">America's Best Banks 2021</a></h3>
-            <p>Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
-              in today's challenging times.
-            </p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">World's Best Specialized Hospitals 2021</a></h3>
-            <p>In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.
-            </p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">Best Online Shops 2021</a></h3>
-            <p>Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">America's Best Physical Rehabilitation Centers 2020</a></h3>
-            <p>Finding reliable rehabilitation can be a challenge. We partnered with Statista to rank the country's Best
-              Physical Rehabilitation Centers.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
-          <article class="article-main">
+          <article class="article-main card">
             <div class="image-container">
-              <a href="#"><img src="./images/donald-trump-1.jpg" alt="top-story"></a>
-              <a class="category" href="">
-                <h5>SPONSORED INSIGHT</h5>
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
               </a>
             </div>
-            <h3><a href="#">What Brands do You Trust the Most?</a></h3>
-            <p>Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by consumers like you.</p>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
+          </article>
+          <article class="article-main card">
+            <div class="image-container">
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
+              </a>
+            </div>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
+          </article>
+          <article class="article-main card">
+            <div class="image-container">
+              <a href="#"><img class="card-img-top" src="./images/donald-trump-1.jpg" alt="top-story"></a>
+              <a class="category p-2" href="">
+                <h5 class="m-auto">SPONSORED INSIGHT</h5>
+              </a>
+            </div>
+            <div class="info">
+              <a class="card-title" href="#">America's Best Banks 2021</a>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs
+                in today's challenging times.
+              </p>
+            </div>
           </article>
         </section>
       </section>
@@ -986,7 +1089,6 @@
           <button type="submit" class="w-50 txt-white font-weight-bold">FREE SIGN UP</button>
           </form>
           </div>
-
         </div>
       </div>
     </section>

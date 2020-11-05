@@ -69,7 +69,12 @@ a {
 
     @media (min-width: 1024px) {
       .main-content {
-        height: 90% !important;
+        background-color: green;
+        height: 94% !important;
+
+        img {
+          object-fit: cover;
+        }
       }
     }
   }
@@ -80,6 +85,30 @@ a {
     border: none;
     color: white;
   }
+}
+
+.article-debate2,
+.article-debate1 {
+  a {
+    img {
+      height: 63px;
+      width: 63px;
+    }
+  }
+}
+
+.article-in-mag a {
+  color: #333;
+}
+
+.topic a {
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.article-main h3 a {
+  color: black;
+  font-size: 22px;
 }
 
 header {
@@ -98,7 +127,9 @@ header {
     }
 
     .items button {
+      font-size: 13px;
       margin: 0 0.5rem;
+      font-family: "Roboto Condensed", sans-serif;
     }
 
     .button-subscribe {
@@ -133,16 +164,36 @@ header {
     }
   }
 
+  header,
+  .middle-navbar::before {
+    @media screen and (min-width: 992px) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: "";
+      display: block;
+      width: 66px;
+      background-color: #f72210;
+      border-left: 12px solid white;
+      border-top: 13px solid #f72210;
+    }
+  }
+
   .middle-navbar {
     border-bottom: solid 1px lightgray;
     font: bold 19px/24px "Roboto Condensed", sans-serif;
 
     input {
-      width: 120px;
+      width: 80px;
     }
 
-    ul li {
-      border-right: solid 1px lightgray;
+    ul {
+      width: 95%;
+      position: relative;
+
+      li a {
+        padding: 5px 3px;
+      }
     }
   }
 
@@ -152,28 +203,15 @@ header {
   }
 }
 
-.article-debate2,
-.article-debate1 {
-  a {
-    img {
-      height: 63px;
-      width: 63px;
-    }
-  }
-}
-
-.article-in-mag a {
-  color: #333;
-}
-
-.topic a {
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  color: black;
-}
-
-.article-main h3 a {
-  color: black;
-  font-size: 22px;
+.search-icon {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .more-stories .story-desc a {
@@ -383,8 +421,27 @@ footer {
 }
 
 .sponsored-insight {
+  .card {
+    border: solid 1px lightgray;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font: bold 20px/2px "Roboto Condensed", sans-serif;
+    color: black;
+  }
+
+  .info {
+    margin: 15px;
+  }
+
+  .card-text {
+    font: 400 13px/19.5px Arial, Helvetica, sans-serif;
+  }
+
   .image-container a h5 {
-    color: rgb(82, 82, 255);
+    font: bold 17px/16px "Roboto Condensed", sans-serif;
+    color: #3581f4;
   }
 }
 
@@ -405,6 +462,12 @@ footer {
   .right-side article {
     border-bottom: 2px solid lightgrey;
   }
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .hero-articles {
@@ -429,6 +492,27 @@ footer {
 
   .left-col,
   .middle-col {
+    .top-article,
+    .features-article {
+      .category {
+        padding: 4px 15px;
+      }
+
+      h5 {
+        color: rgb(247, 34, 16);
+        font: bold 17px/16px "Roboto Condensed", sans-serif;
+        margin: auto;
+      }
+
+      h3 {
+        font: bold 20px/20px "Roboto Condensed", sans-serif;
+      }
+
+      p {
+        font: 400 15px/20px Arial, Helvetica, sans-serif;
+      }
+    }
+
     @media (max-width: 767px) {
       .featured-stories::before {
         @include section-break;
@@ -507,14 +591,24 @@ footer {
     .more-stories {
       .img-wrap {
         img {
-          width: 125px;
-          height: 125px;
+          width: 95px;
+          height: 95px;
           object-fit: cover;
         }
       }
 
       .more-story {
         border-top: solid 1px lightgray;
+
+        .story-desc {
+          h5 {
+            font: bold 17px/20px "Roboto Condensed", sans-serif;
+          }
+
+          p {
+            font: 400 15px/20px Arial, Helvetica, sans-serif;
+          }
+        }
       }
 
       h4 {
@@ -543,17 +637,6 @@ footer {
 //  <!-- to be pasted subscirbe -->
 
 // <!-- to be pasted subscirbe -->
-
-.search-icon {
-  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
-  width: 20px;
-  height: 20px;
-  clip: auto;
-  font-size: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 @media (min-width: 992px) {
   .right-col .sponsored-insight {
