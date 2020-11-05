@@ -1,37 +1,40 @@
 [](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Week 2
+## Week 3
 
-# Project 2 :  Building with Responsive Design
+# Project 3 :  Using Bootstrap
 
-> This Project consists of making a clone of a .
+> This Project consists of making a clone of the [Newsweek](http://newsweek.com/) web page.
 
-![screenshot](./assets/imgs/screenshot.png)
+![screenshot](./assets/imgs/screenshot-mobile.png)
+![screenshot](./assets/imgs/screenshot-tablet.png)
+![screenshot](./assets/imgs/screenshot-desktop.png)
 
-You can find the original project specification at: 
+You can find the original project specification at: [](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 ## Built With
 
 - HTML
 - CSS
-- VScode & Atom as code editors
+- Bootstrap
+- VScode
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://zappat0n.github.io/Newsweek-clone/)
 
 ## Authors
-
-👤 **Angel Barros**
-
-- GitHub: [@Zappat0n](https://github.com/Zappat0n)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/angel-luis-barros-pazos-8889011b5/)
 
 👤 **XXX**
 
 - GitHub: [@od-c0d3r]()
 - Twitter: [@od_coder]()
 - LinkedIn: [LinkedIn]()
+
+👤 **Angel Barros**
+
+- GitHub: [@Zappat0n](https://github.com/Zappat0n)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/angel-luis-barros-pazos-8889011b5/)
 
 ## 🤝 Contributing
 

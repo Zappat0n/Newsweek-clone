@@ -240,6 +240,16 @@ header {
         }
       }
     }
+
+    .more-stories {
+      .more-story {
+        border-top: solid 1px lightgray;
+      }
+
+      h4 {
+        @include section-title();
+      }
+    }
   }
 }
 
