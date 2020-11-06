@@ -249,9 +249,24 @@ footer .languages.nav ul.nav li {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .news h3,
+  .news p,
+  .subscribe h3,
+  .subscribe p {
+    text-align: left;
+  }
+}
+
 .subscribe .img-container {
   margin-bottom: 1rem;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .subscribe .img-container {
+    padding-right: 5.5rem;
+  }
 }
 
 .subscribe .img-container img {
@@ -262,6 +277,14 @@ footer .languages.nav ul.nav li {
   z-index: 2;
   left: -50px;
   bottom: -10px;
+}
+
+@media (min-width: 768px) {
+  .subscribe .img-container .img2 {
+    position: absolute;
+    left: 90px;
+    top: 25px;
+  }
 }
 
 .article-main {

@@ -269,6 +269,9 @@ footer {
   h3,
   p {
     text-align: center;
+    @media (min-width:768px) {
+      text-align: left;
+    }
   }
 }
 
@@ -276,6 +279,9 @@ footer {
   .img-container {
     margin-bottom: 1rem;
     position: relative;
+    @media (min-width:768px) {
+      padding-right: 5.5rem;
+    }
 
     img {
       position: relative;
@@ -285,6 +291,11 @@ footer {
       z-index: 2;
       left: -50px;
       bottom: -10px;
+      @media (min-width:768px) {
+        position: absolute;
+        left: 90px;
+        top: 25px;
+      }
     }
   }
 }
