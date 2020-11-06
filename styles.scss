@@ -78,12 +78,21 @@ a {
       }
     }
   }
-
+  input{
+    @media (min-width:768px) {
+      width: 100% !important;
+      
+    }
+  }
   button {
     background-color: #f61602;
     border-radius: 0;
     border: none;
     color: white;
+    @media (min-width:768px) {
+      width: 100% !important;
+      
+    }
   }
 }
 
@@ -259,7 +268,9 @@ footer {
     }
   }
 }
-
+.no-padding{
+  padding: 0 !important;
+}
 .news,
 .subscribe {
   h6 {
@@ -271,6 +282,11 @@ footer {
     text-align: center;
     @media (min-width:768px) {
       text-align: left;
+    }
+  }
+  h3{
+    @media (min-width:768px) {
+      font-size: 1.2rem;
     }
   }
 }

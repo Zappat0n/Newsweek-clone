@@ -63,11 +63,23 @@ a {
   }
 }
 
+@media (min-width: 768px) {
+  .news input {
+    width: 100% !important;
+  }
+}
+
 .news button {
   background-color: #f61602;
   border-radius: 0;
   border: none;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .news button {
+    width: 100% !important;
+  }
 }
 
 .article-debate2 a img,
@@ -237,6 +249,10 @@ footer .languages.nav ul.nav li {
   padding: 0 0.25rem;
 }
 
+.no-padding {
+  padding: 0 !important;
+}
+
 .news h6,
 .subscribe h6 {
   color: #f61602;
@@ -255,6 +271,13 @@ footer .languages.nav ul.nav li {
   .subscribe h3,
   .subscribe p {
     text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .news h3,
+  .subscribe h3 {
+    font-size: 1.2rem;
   }
 }
 
