@@ -1,0 +1,7 @@
+node_modules/
+.styleintrc.json
+.hintrc
+styles.css.map
+/hint-report
+package.json
+package-lock.json
